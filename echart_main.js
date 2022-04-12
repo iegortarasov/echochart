@@ -31,10 +31,11 @@ var getScriptPromisify = (src) => {
     }
 
 
-
-      ////////////////////////////////////////////////////////////
-     ////First comment: Place the first part of the script here//
-    ////////////////////////////////////////////////////////////
+    
+set myDataSource (dataBinding) {
+this._myDataSource = dataBinding
+this.render()
+}
 
 
     async render () {
